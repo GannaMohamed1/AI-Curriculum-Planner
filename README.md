@@ -101,11 +101,11 @@ In this project, we use *Q-learning*, a simple yet powerful RL algorithm, to tra
 
 Make sure you have Python 3.7 or higher installed. It's recommended to use a virtual environment to isolate dependencies.
 
-bash
+```bash
 # Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
-
+```
 
 Then install the required libraries:
 * networkx
@@ -113,12 +113,13 @@ Then install the required libraries:
 * numpy
 
 By using
-bash
+```bash
 pip install library_Name
-
+```
 ### Step 2: Run the Task in Notebook
 
 The easiest way to run the complete system is through the provided Jupyter Notebook.
 
-bash
+```bash
 jupyter notebook notebook/AI_Curriculum_Planner_Ganna_Mohamed.ipynb
+```
